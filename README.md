@@ -8,6 +8,7 @@ A friendly, terminal-based user interface (TUI) for a quick setup and customizat
 ## ## About
 
 **EL-Init** solves the repetitive task of writing post-installation shell scripts. Instead of manually scripting `dnf` commands and configurations for every new server, workstation, or virtual machine, EL-Init provides an interactive menu to select the components you need. It then generates a shell script to automate the setup process.
+<img width="1417" height="1699" alt="image" src="https://github.com/user-attachments/assets/085b8b7e-fbf2-4db1-9aab-397ec214408a" />
 
 
 ---
