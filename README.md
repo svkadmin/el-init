@@ -1,6 +1,6 @@
 # EL-Init: The Enterprise Linux Initializer
 
-A friendly, terminal-based user interface (TUI) for a quick setup and customization of Rocky Linux, AlmaLinux, CentOS Stream, and RHEL systems.
+A terminal-based user interface (TUI) for a quick setup and customization of Rocky Linux, AlmaLinux, CentOS Stream, and RHEL systems.
 
 
 ---
@@ -15,7 +15,7 @@ A friendly, terminal-based user interface (TUI) for a quick setup and customizat
 
 ## ## Features
 
-* **Interactive TUI**: A fast and intuitive terminal interface built with Rust and `ratatui`.
+* **Interactive TUI**: A intuitive terminal interface built with Rust and `ratatui`.
 * **Modular Script Generation**: Pick and choose from a deep, tree-style menu of options.
 * **Robust Scripts**: The generated shell script automatically exits on any error (`set -e`) and clearly logs each step it performs.
 * **Dependency-Aware**: Intelligently runs repository setups *before* attempting to install packages, preventing common failures.
