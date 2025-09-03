@@ -359,7 +359,7 @@ mod scripts_repos {
     pub fn add_crb() -> &'static str { "sudo dnf config-manager --set-enabled crb" }
     pub fn add_baseos() -> &'static str { "sudo dnf config-manager --set-enabled baseos" }
     pub fn add_appstream() -> &'static str { "sudo dnf config-manager --set-enabled appstream" }
-    pub fn add_epel() -> &'static str { "sudo dnf config-manager --set-enabled crb\nsudo dnf install -y 'https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm'" }
+    pub fn add_epel() -> &'static str { "sudo dnf config-manager --set-enabled crb\nsudo dnf install -y 'https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm'" }
     pub fn add_flathub() -> &'static str { "sudo dnf install -y flatpak\nsudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo" }
 }
 
